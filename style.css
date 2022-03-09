@@ -35,7 +35,7 @@ body {
 .left-content-text {
     color: gray;
     max-width: 300px;
-    margin-top: -70px;
+    margin-top: -60px;
 }
 
 .left-content-button {
@@ -73,5 +73,50 @@ a {
     margin-bottom: 60px;
 }
 
+
+/* Information Section */
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-items {
+    list-style: none;
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info-item img {
+    width: 150px;
+    height: 200px;
+}
+.info-item {
+    text-align: justify;
+    width: 150px;
+}
+
+/* Quote */
+.quote {
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.quote-text {
+    font-size: 30px;
+}
+
+.quote-person {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 200px;
+}
 
 
